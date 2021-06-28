@@ -12,15 +12,9 @@ function App() {
       <div className="App">
         <Nav />
         <Switch>
-          <Route exact path={["/", "/"]}>
-              <Home />
-          </Route>
-          <Route exact path={["/", "/Portfolio"]}>
-              <Portfolio />
-          </Route>
-          <Route exact path={["/", "/Contact"]}>
-              <Contact />
-          </Route>
+          <Route exact path="/" component={Home}/>
+          <Route exact path="/portfolio" component={Portfolio}/>
+          <Route exact path="/contact" component={Contact}/>            
         </Switch>
       </div>
     </Router>
