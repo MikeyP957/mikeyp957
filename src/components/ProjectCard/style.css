@@ -1,0 +1,17 @@
+.projImg{
+    width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.projCard{
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+   border: solid;
+   border-color: black;
+   
+}
+
