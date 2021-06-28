@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e87ee20.chunk.css",
-    "main.js": "/static/js/main.e9ef695d.chunk.js",
-    "main.js.map": "/static/js/main.e9ef695d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4d419ce4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4d419ce4.js.map",
-    "static/js/2.466c2b34.chunk.js": "/static/js/2.466c2b34.chunk.js",
-    "static/js/2.466c2b34.chunk.js.map": "/static/js/2.466c2b34.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.5e87ee20.chunk.css.map": "/static/css/main.5e87ee20.chunk.css.map",
-    "static/js/2.466c2b34.chunk.js.LICENSE.txt": "/static/js/2.466c2b34.chunk.js.LICENSE.txt",
-    "static/media/addVenture.8c88f723.png": "/static/media/addVenture.8c88f723.png",
-    "static/media/blog01.ebfe8d7a.png": "/static/media/blog01.ebfe8d7a.png",
-    "static/media/germpod.92591239.png": "/static/media/germpod.92591239.png",
-    "static/media/mikeyP.de0cabac.jpg": "/static/media/mikeyP.de0cabac.jpg",
-    "static/media/weather01.60c616d8.png": "/static/media/weather01.60c616d8.png"
+    "main.css": "/mikeyp957/static/css/main.5e87ee20.chunk.css",
+    "main.js": "/mikeyp957/static/js/main.9f788f65.chunk.js",
+    "main.js.map": "/mikeyp957/static/js/main.9f788f65.chunk.js.map",
+    "runtime-main.js": "/mikeyp957/static/js/runtime-main.cadf98d6.js",
+    "runtime-main.js.map": "/mikeyp957/static/js/runtime-main.cadf98d6.js.map",
+    "static/js/2.b09372a9.chunk.js": "/mikeyp957/static/js/2.b09372a9.chunk.js",
+    "static/js/2.b09372a9.chunk.js.map": "/mikeyp957/static/js/2.b09372a9.chunk.js.map",
+    "index.html": "/mikeyp957/index.html",
+    "static/css/main.5e87ee20.chunk.css.map": "/mikeyp957/static/css/main.5e87ee20.chunk.css.map",
+    "static/js/2.b09372a9.chunk.js.LICENSE.txt": "/mikeyp957/static/js/2.b09372a9.chunk.js.LICENSE.txt",
+    "static/media/addVenture.8c88f723.png": "/mikeyp957/static/media/addVenture.8c88f723.png",
+    "static/media/blog01.ebfe8d7a.png": "/mikeyp957/static/media/blog01.ebfe8d7a.png",
+    "static/media/germpod.92591239.png": "/mikeyp957/static/media/germpod.92591239.png",
+    "static/media/mikeyP.de0cabac.jpg": "/mikeyp957/static/media/mikeyP.de0cabac.jpg",
+    "static/media/weather01.60c616d8.png": "/mikeyp957/static/media/weather01.60c616d8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4d419ce4.js",
-    "static/js/2.466c2b34.chunk.js",
+    "static/js/runtime-main.cadf98d6.js",
+    "static/js/2.b09372a9.chunk.js",
     "static/css/main.5e87ee20.chunk.css",
-    "static/js/main.e9ef695d.chunk.js"
+    "static/js/main.9f788f65.chunk.js"
   ]
 }
