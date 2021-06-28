@@ -4,6 +4,7 @@ import Contact from './pages/Contact'
 import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
 import Nav from './components/Nav'
+import Wrapper from './components/Wrapper'
 
 
 function App() {
@@ -11,11 +12,11 @@ function App() {
     <Router>
       <div className="App">
         <Nav />
-        <Switch>
+        <Wrapper>
           <Route exact path="/" component={Home}/>
           <Route exact path="/portfolio" component={Portfolio}/>
           <Route exact path="/contact" component={Contact}/>            
-        </Switch>
+        </Wrapper>
       </div>
     </Router>
 
