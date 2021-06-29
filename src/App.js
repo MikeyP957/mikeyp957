@@ -13,9 +13,9 @@ function App() {
       <div className="App">
         <Nav />
         <Wrapper>
-          <Route exact path="/" component={Home}/>
-          <Route exact path="/portfolio" component={Portfolio}/>
-          <Route exact path="/contact" component={Contact}/>            
+          <Route exact path={process.env.PUBLIC_URL + "/"} component={Home}/>
+          <Route exact path={process.env.PUBLIC_URL + "/portfolio"} component={Portfolio}/>
+          <Route exact path={process.env.PUBLIC_URL + "/contact"} component={Contact}/>            
         </Wrapper>
       </div>
     </Router>
