@@ -7,7 +7,7 @@ import '../App.css'
 class Portfolio extends Component {
 render() {
     return(
-        <div>
+        <div className='mainContent'>
             <Title title={'Porfolio'} />
                 <div>
                     {ProjectsArr.map((proj, index) => (
