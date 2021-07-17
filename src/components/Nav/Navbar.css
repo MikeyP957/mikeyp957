@@ -1,5 +1,4 @@
-.NavbarItems{
-    background: linear-gradient(90deg, rgba(110, 94, 254, 0.849) 0%, rgba(73,63,252,100%));
+.NavbarItems{ 
     height: 80px;
     display: flex;
     align-items: center;
@@ -7,7 +6,7 @@
 }
 
 .navbar-logo{
-    color: #fff;
+    color: #3C403D;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -30,7 +29,7 @@
 }
 
 .nav-links{
-    color: white;
+    color: #3C403D;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -42,7 +41,7 @@
 }
 
 .fa-bars {
-    color: #fff;
+    color: #3C403D;
 }
 
 .nav-links-mobile{
@@ -72,7 +71,7 @@
     }
 
     .nav-menu.active {
-        background: #6668f4;
+        background: rgba(163, 188, 182);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -109,7 +108,7 @@
     }
 
     .fa-times{
-        color: #fff;
+        color: #3C403D;
         font-size: 2rem;
     }
 /* for sign-up button */
