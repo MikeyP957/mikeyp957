@@ -2,6 +2,8 @@ import forumImage from '../media/projectImages/blog01.png';
 import germPodImg from '../media/projectImages/germpod.png'
 import weatherImg from '../media/projectImages/weather01.png';
 import letsVentureImg from '../media/projectImages/addVenture.png';
+import * as FaIcons from 'react-icons/fa'
+import * as SiIcons from 'react-icons/si'
 
 
 const projectArr = [
@@ -9,7 +11,8 @@ const projectArr = [
         "title":"Let's +Venture",
         "url":"https://lets-add-venture.netlify.app/",
         "image":letsVentureImg,
-        "description":"This social media style app lets users connect with other users and share information about their climbing ability. The app uses google maps and geocoder API's to help users search for climbs near a given location. Users can also save completed climbs to their profile by clicking the 'save' button. The app uses a relational database to store user information including friends, personal information, and climbs saved from the climber API."
+        "description":"This social media style app lets users connect with other users and share information about their climbing ability. The app uses google maps and geocoder API's to help users search for climbs near a given location. Users can also save completed climbs to their profile by clicking the 'save' button. The app uses a relational database to store user information including friends, personal information, and climbs saved from the climber API.",
+        icons: [<FaIcons.FaReact/>,'   ', <FaIcons.FaNodeJs/>,'   ', <FaIcons.FaDatabase/>,'   ', <SiIcons.SiGooglemaps/>]
     },
     {
         "title":"Covid Germ Pod Profiles",

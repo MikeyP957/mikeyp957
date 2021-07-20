@@ -5,6 +5,8 @@ import ProjectsArr from '../projects/projectData'
 import '../App.css'
 
 class Portfolio extends Component {
+
+
 render() {
     return(
         <div className='mainContent'>
@@ -17,6 +19,7 @@ render() {
                         url ={proj.url}
                         image={proj.image}
                         description ={proj.description}
+                        icons = {proj.icons}
                         />
                     ))}
                 </div>
