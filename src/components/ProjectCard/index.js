@@ -28,9 +28,10 @@ function ProjectCard(props) {
               {props.icons}
               </div>              
                 <br/>
-                <button onClick={handleExpand}>expand</button>
+                <button onClick={handleExpand} className="expandBtn">{isExpanded ? "View Less" : "View More"}</button>
               <div className={isExpanded ? 'textDescript active' :'textDescript'}>
-              {props.description}
+              <h4>Description:</h4>  {props.description}
+              <h4>Contributions:</h4>  {props.contribution}
               </div>              
             </Card.Text>
 

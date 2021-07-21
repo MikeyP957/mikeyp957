@@ -19,6 +19,7 @@ render() {
                         url ={proj.url}
                         image={proj.image}
                         description ={proj.description}
+                        contribution = {proj.contribution}
                         icons = {proj.icons}
                         />
                     ))}
