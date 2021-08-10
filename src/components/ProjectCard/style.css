@@ -27,7 +27,21 @@
 
 .textDescript.active {
     margin: 2rem;
-    display:block;
-    
-    
+    padding: 2rem;
+    display:block;    
+    background: rgba(60, 64, 61, 0.52);
+    color: white;
+    border-radius: 15px;    
+}
+
+.expandBtn{
+    width: 150px;
+    height: 30px;
+    left: 98px;
+    top: calc(50% - 49px/2 - 112px);
+
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid #682A86;
+    box-sizing: border-box;
+    border-radius: 15px;
 }
