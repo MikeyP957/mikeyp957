@@ -1,10 +1,11 @@
 import React from "react";
+import './style.css'
 
 
 function Title(props) {
   return (
     <div>
-      <h2>{props.title}</h2>      
+      <h2 className='pageHeaders' >{props.title}</h2>      
     </div>
   );
 }

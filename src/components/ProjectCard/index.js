@@ -16,7 +16,7 @@ function ProjectCard(props) {
 
           <Card.Body>
             <Card.Title>
-             <h3> {props.title} </h3> 
+             <h3 className = 'cardTitle' > {props.title} </h3> 
             <a href={props.url} >Click here to view the project</a>
             <br />
             <br/> 
