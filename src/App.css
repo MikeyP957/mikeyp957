@@ -1,9 +1,12 @@
 body{
   background: rgba(163, 188, 182, 0.5);
-  color: #3C403D;
-  font-family: 'Noto Serif', serif;
+  color: #3C403D;  
 }
-
+p {
+  font-size: 1.5rem;
+  
+  font-family: 'Open Sans', sans-serif;
+}
 a{
   color:#3C403D;
 }
