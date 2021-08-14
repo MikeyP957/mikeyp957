@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Title from '../components/Title'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import Image from 'react-bootstrap/Image'
@@ -18,22 +17,18 @@ class Home extends Component {
                         <Col xs={6} md={4}>
                         <Image className="profPic" align='left' src={profilePic} thumbnail />
                         </Col>
+                        <br/>
                         <Col xs={6} md={4} >                                        
-                            <Title align="center" title={"Hello, my name is Mikey Perara. I am a full-stack developer based in Seattle, Washington."} />
+                            <p className ="homeHeader" >Hello, my name is Mikey Perara. I am a full-stack developer based in Seattle, Washington.</p>
                         </Col>
                     </Row>
+                    </Container>
+                    <Container>
                     <br/>
                     <br/>
                     <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+                    <br/>  
+                    <br/>  
                     <Row>                      
                        
                         <Col className='aboutMe' align='' xs={6} md={4} >

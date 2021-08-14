@@ -14,6 +14,7 @@ a{
   padding: 20px;
 }
 .profPic{
+
   width: 320px;
   align-self: auto;
   border-style: solid;
@@ -25,10 +26,16 @@ a{
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
 }
-
+.homeHeader{
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
 .aboutMe{
   
-  margin-right: 25px;
+  margin: 2rem 6rem;
   text-align: center;
   font-size: large;
   padding: 20px;
