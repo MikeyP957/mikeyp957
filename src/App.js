@@ -12,10 +12,16 @@ function App() {
     <Router>
       <div className="App">
         <Nav />        
-          <Route exact path="*" component={Home} />
         <Switch>
-          <Route exact path={"/portfolio"} component={Portfolio}/>
-          <Route exact path={"/contact"} component={Contact}/>            
+          <Route exact path={"/mikeyp957"}>
+            <Home />
+          </Route>
+          <Route exact path={"/portfolio"}>
+            <Portfolio />
+          </Route>
+          <Route exact path={"/contact"} >
+            <Contact />
+          </ Route>            
         </Switch>
       </div>      
     </Router>

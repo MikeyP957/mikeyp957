@@ -5,7 +5,7 @@ import * as GrIcons from 'react-icons/gr'
 export const MenuItems = [
     {
         title: 'Home',
-        url: '/',
+        url: '/mikeyp957',
         cName: 'nav-links',
         icon: <FaIcons.FaHome/>
     },
