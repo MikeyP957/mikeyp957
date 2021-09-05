@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import Title from '../components/Title'
 import Card from 'react-bootstrap/Card'
+import Image from 'react-bootstrap/Image'
+
+import contactPic from '../media/projectImages/contactImage.jpg'
 import * as FiIcons from 'react-icons/fi'
 import * as FaIcons from 'react-icons/fa'
 import '../App.css'
@@ -11,10 +14,13 @@ class Contact extends Component {
     render() {
         return (
             <div className='mainContent'>
-        
+
             <Card 
             className="contactCard">
                  <Title title={'Contact Information'} />
+                
+                <Image  className= "contactImg"    src={contactPic} />
+       
                  <p><FiIcons.FiMail className="ContactIcon"/> peraram2@gmail.com </p>
                 
                 <p><FaIcons.FaGithub className="ContactIcon"/> <a href="https://github.com/MikeyP957">github.com/MikeyP957</a> </p>

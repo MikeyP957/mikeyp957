@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container'
 import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row'
 import profilePic from '../media/mikeyP.png'
+import mathBackground from '../media/projectImages/mathBackground.jpg'
 import '../App.css'
 
 
@@ -11,6 +12,11 @@ class Home extends Component {
 
     render() {
         return (
+            <div>
+
+                <span>
+                    <Image className= 'headerPic' src = {mathBackground} />
+                </span>
             <div className='mainContent'>
                 <Container>
                     <Row>
@@ -19,7 +25,7 @@ class Home extends Component {
                         </Col>
                         <br/>
                         <Col xs={6} md={4} >                                        
-                            <p className ="homeHeader" >Hello, my name is Mikey Perara. I am a full-stack developer based in Seattle, Washington.</p>
+                            <p className ="homeHeader" >Hello, my name is Mikey Perara. I am a full-stack web developer based in Seattle, Washington.</p>
                         </Col>
                     </Row>
                     </Container>
@@ -37,6 +43,8 @@ class Home extends Component {
                     </Row>
                 </Container>
             </div>
+
+            </ div >
         )
     }
     

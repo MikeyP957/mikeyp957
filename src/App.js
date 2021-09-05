@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+
 import Contact from './pages/Contact'
 import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
@@ -21,8 +22,12 @@ function App() {
           </Route>
           <Route exact path={"/contact"} >
             <Contact />
-          </ Route>            
+          </ Route> 
+                     
         </Switch>
+        <Portfolio />
+        <Contact />
+        
       </div>      
     </Router>
     
