@@ -1,20 +1,22 @@
 body{
-  background: rgba(163, 188, 182, 0.5);
+  background:#dfdcda;
   color: #3C403D;  
 }
 p {
-  font-size: 1.5rem;
-  
+  font-size: 1.5rem;  
   font-family: 'Open Sans', sans-serif;
 }
 a{
-  color:#3C403D;
+  color:#2f3330;
 }
 .mainContent{
   padding: 20px;
 }
+/* Images */
+.headerPic {
+  width: 100%;
+}
 .profPic{
-
   width: 320px;
   align-self: auto;
   border-style: solid;
@@ -26,6 +28,11 @@ a{
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
 }
+.contactImg{
+  width: 25%;
+}
+
+/* pages  */
 .homeHeader{
   margin-top: 5rem;
   display: flex;

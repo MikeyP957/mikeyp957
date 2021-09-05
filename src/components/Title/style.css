@@ -1,4 +1,9 @@
 .pageHeaders{
     font-family: 'Quicksand', sans-serif;
+    background-color: aquamarine;
+    margin-top: auto;
+    color: #3C403D;
+    text-align: center;
+    font-size: larger;
 }
 
